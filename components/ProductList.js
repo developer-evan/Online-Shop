@@ -29,7 +29,7 @@ const ProductList = () => {
             <h3>{product.name}</h3>
             <p>{product.description}</p>
             <span>{product.price}</span>
-          <button>Add Cart</button>
+          
             
           </div>
         </div>
