@@ -5,30 +5,30 @@ function Header() {
   return (
     <div className="flex justify-around  bg-sky-500">
       <Link href="/">
-        <h1 className="p-2">Onshop</h1>
+        <h1 className="p-3">Onshop</h1>
       </Link>
       <ul className="flex  justify-evenly">
         <Link href="/">
-          <li className="p-2">Home</li>
+          <li className="p-3">Home</li>
         </Link>
         <Link href="/">
-          <li className="p-2">About</li>
+          <li className="p-3">About</li>
         </Link>
         <Link href="/">
-          <li className="p-2">Products</li>               
+          <li className="p-3">Products</li>               
         </Link>
         <Link href="/">
-          <li className="p-2">Cart</li>
+          <li className="p-3">Cart</li>
         </Link>
       </ul>
-      <div className="mt-1 ">
+      <div className="mt-1 p-1 ">
         <Link href="/home">
-          <button className="p-1 text-sky-500 bg-white mr-2 round">
+          <button className="p-1 text-sky-500 bg-white mr-2 rounded-lg">
             Sign In
           </button>
         </Link>
         <Link href="/">
-          <button className="p-1 text-sky-500 bg-white">Sign up</button>
+          <button className="p-1 text-sky-500 bg-white rounded-lg">Sign up</button>
         </Link>
       </div>
     </div>

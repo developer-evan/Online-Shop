@@ -20,37 +20,56 @@ export default function App() {
           dynamicBullets: true,
         }}
         modules={[Pagination, Autoplay]}
-        className="h-120 mb-48"
+        // className="h-120 mb-48"
         autoplay={{
-          delay: 2000, // set the delay between slides in milliseconds
+          delay: 4000, // set the delay between slides in milliseconds
           disableOnInteraction: false, // continue autoplay even when user interacts with the slider
         }}
       >
-        <SwiperSlide className="w-4/5 flex flex-row bg-white text-lime-400 h-120
-        ">
-          
+        <SwiperSlide>
+          <div className="w-5/5 flex items-center justify-around bg-white p-6 h-120">
             <div>
-              Deals Here
+              <h1 className="text-sky-500 text-4xl bold">Deals Here</h1>
+              <br/>
+              <br/>
+              <span className="text-orange-500 text-3xl bold">Get Your Best Offer Now!!</span>
+              <br/>
+              <br/>
+
+              <button className="bg-sky-500 text-white text-3xl bold p-2 rounded-md">Hurry Up!</button>
             </div>
             <div>
-            {/* <Image src="https://images.pexels.com/photos/2529148/pexels-photo-2529148.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width={500} height={300} /> */}
-
+              <Image
+                src="/1 (2).jpg"
+                alt="Description of the image"
+                width={500}
+                height={300}
+              />
+            </div>
           </div>
-          
-          
-          Slide 1
-          
-          
-          
-          </SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
-        {/* <SwiperSlide>Slide 5</SwiperSlide>
-        <SwiperSlide>Slide 6</SwiperSlide>
-        <SwiperSlide>Slide 7</SwiperSlide>
-        <SwiperSlide>Slide 8</SwiperSlide>
-        <SwiperSlide>Slide 9</SwiperSlide> */}
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="w-1/1 flex justify-around items-center bg-white p-6 text-sky-400 h-120">
+          <div>
+              <h1 className="text-sky-500 text-4xl bold">Deals Here</h1>
+              <br/>
+              <br/>
+              <span className="text-orange-500 text-3xl bold">Get Your Best Offer Now!!</span>
+              <br/>
+              <br/>
+
+              <button className="bg-sky-500 text-white text-3xl bold p-2 rounded-md">Hurry Up!</button>
+            </div>
+            <div>
+              <Image
+                src="/1.jpg"
+                alt="Description of the image"
+                width={500}
+                height={300}
+              />
+            </div>
+          </div>
+        </SwiperSlide>
       </Swiper>
     </>
   );
