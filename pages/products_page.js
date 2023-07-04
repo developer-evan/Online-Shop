@@ -31,7 +31,7 @@ const ProductList = () => {
   return (
     <div className="bg-sky-500 w-full p-4">
       <h1 className="text-center text-white text-4xl font-bold underline mb-8">
-        Hot Deals
+        Shop your best product
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-4">
         {products.map((product) => (
@@ -51,7 +51,7 @@ const ProductList = () => {
             </span>
             <button
               onClick={() => addToCart(product.id)}
-              className=" mt-4 bg-orange-500 text-white font-bold py-2 px-4 rounded flex items-center"
+              className="block mt-4 bg-orange-500 text-white font-bold py-2 px-4 rounded flex items-center"
             >
               <FaCartPlus style={{ marginRight: '0.5rem', fontSize: '1.2rem' }} />
               Add to Cart

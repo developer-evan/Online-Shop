@@ -22,8 +22,8 @@ export default function App() {
         modules={[Pagination, Autoplay]}
         // className="h-120 mb-48"
         autoplay={{
-          delay: 4000, // set the delay between slides in milliseconds
-          disableOnInteraction: false, // continue autoplay even when user interacts with the slider
+          delay: 5000, 
+          disableOnInteraction: false, 
         }}
       >
         <SwiperSlide>
@@ -40,7 +40,7 @@ export default function App() {
             </div>
             <div>
               <Image
-                src="/1 (2).jpg"
+                src="/3.jpg"
                 alt="Description of the image"
                 width={500}
                 height={300}
