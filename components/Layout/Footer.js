@@ -10,7 +10,7 @@ function Footer() {
         <h1>Onshop</h1>
         <ul>
           <li className='items-start p-2'><i class="fa fa-envelope" aria-hidden="true"></i> onshop@gmail.com</li>
-          <li className='items-start p-2'><i class="fa fa-phone" aria-hidden="true"></i> +254728366248</li>
+          <li className='items-start p-2'><i class="fa fa-phone" aria-hidden="true"></i> +254793721334</li>
           <li className='items-start p-2'><i class="fa fa-globe" aria-hidden="true"></i> 123 Edinburgh</li>
           {/* <li><i class="fa fa-envelope" aria-hidden="true"></i> onshop@gmail.com</li> */}
         </ul>
